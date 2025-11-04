@@ -76,7 +76,6 @@
 .announcement-bar {
   display: flex;
   gap: 20px;
-  flex-wrap: wrap;
 }
 .announcement-bar--item span {
   color: var(--color-announcement-bar-text);
@@ -354,8 +353,21 @@ hr {
 .explorepics {
   width: 710px;
   height: 887px;
-  background-image: url(statics/images/);
+  background-image: url(statics/images/IMG_8093.webp);
   background-repeat: repeat;
   background-size: cover;
   background-position: center;
+}
+.explorepics1 {
+  width: 710px;
+  height: 887px;
+  background-image: url(statics/images/IMG_4221-scaled_51c5a123-063e-4924-9dc1-1778fcf7be60.webp);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+}
+.explore1 {
+  display: flex;
+
+  margin-top: 50px;
 }
