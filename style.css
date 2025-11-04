@@ -76,6 +76,7 @@
 .announcement-bar {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .announcement-bar--item span {
   color: var(--color-announcement-bar-text);
@@ -100,11 +101,13 @@
 .full-menu {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .nav-container {
   display: flex;
   justify-content: space-between;
   gap: 90px;
+  flex-wrap: wrap;
   padding: 20px;
   &:hover {
     background-color: #000000;
@@ -144,6 +147,7 @@ hr {
 .body-text {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .body-text span {
   text-align: center;
@@ -180,6 +184,7 @@ hr {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  flex-wrap: wrap;
   word-spacing: 0.001em;
   font-kerning: normal;
 
@@ -262,6 +267,7 @@ hr {
   display: flex;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .photo-card2 {
   display: flex;
@@ -344,4 +350,12 @@ hr {
   color: var(--color-price);
   font-family: "Noto Sans Japanese", sans-serif;
   padding-left: 85px;
+}
+.explorepics {
+  width: 710px;
+  height: 887px;
+  background-image: url(statics/images/);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
 }
